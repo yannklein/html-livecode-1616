@@ -1,33 +1,26 @@
-.card-container {
-  width: 400px;
-  margin: 32px;
+.card-frame {
+  width: 500px;
+  margin: 16px;
 }
 
 .card-white {
   background-color: white;
   padding: 16px;
+  border-radius: 4px;
   margin-bottom: 16px;
 }
 
 .card-image {
-  height: 200px;
+  height: 360px;
   background-size: cover;
+  background-position: 50% 41%;
 }
+
 .card-white a {
   opacity: 0;
-  transition: 1s;
 }
 
 .card-white:hover a {
   opacity: 1;
-}
-
-.card-footer {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.cards {
-  display: flex;
+  transition: 1s;
 }
