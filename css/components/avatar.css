@@ -1,7 +1,5 @@
-/* avatar's width is 80 pixels */
 .avatar {
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
+  height: 64px;
+  width: 64px;
 }
